@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: outfit;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  min-height: 430px;
+}
+
+img {
+  padding: 10px;
+  border-radius: 22px;
+  width: 240px;
+  height: 240px;
+}
+.t-div {
+  width: 100%;
+}
+.P1 {
+  font-weight: 700;
+
+  font-size: 18px;
+  width: 215px;
+  margin-left: 25px;
+}
+.P {
+  margin-left: 25px;
+  width: 215px;
+  color: hsl(220, 15%, 55%);
+  font-size: 13px;
+}
